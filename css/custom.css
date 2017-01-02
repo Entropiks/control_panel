@@ -16,7 +16,8 @@ html, body {
 }
 
 .display-table {
-  width: 100%; /* stretching content to 100% tag a1 */
+  width: 100%;
+  height: 100%; /* stretching content to 100% tag a1 */
   display: table;
   padding: 0px;
 }
@@ -64,4 +65,36 @@ html, body {
 
 #nav-header ul .glyphicon {
   color: #676a6c;
+}
+
+.label-message {
+  background-color: #2ec4b6;
+}
+
+#nav-header ul a {
+  text-decoration: none;
+}
+
+#nav-header .lougout {
+  color: #676a6c;
+}
+
+#nav-header #welcomemsg {
+  margin-right: 20px;
+}
+
+#nav-header ul .label {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+#nav-header .fixed-width {
+  width: 35px; /*allowing width of space on labels for the icon to sit along side */
+}
+
+#page-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px; /*drops section to sit on bottom of page */
 }
