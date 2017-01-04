@@ -1,7 +1,12 @@
 html, body {
-  font-family: Arial;
-  background-color: #FDFFFC;
+  font-family: 'Lato', sans-serif;
+  background-color: #f3f3f4;
+  color: #676a6c;
   height: 100%; /* stretching content to 100% tag a1 */
+}
+
+.logout {
+  color: #676a6c;
 }
 
 #side-menu {
@@ -184,4 +189,26 @@ html, body {
 
 .navbar-default .navbar-toggle:focus {
   background-color: #2EC4B6;
+}
+
+#content {
+  margin: 20px 0px 50px 0px;
+  background-color: white;
+  border-top: 4px #e7eaec solid;
+}
+
+#content header {
+  border: 1px #f3f3f4 solid;
+  padding: 10px 0px;
+}
+
+.page-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px 0px 0px 20px;
+  margin: 0px;
+}
+
+.content-inner {
+  padding: 20px;
 }
