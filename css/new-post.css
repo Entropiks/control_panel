@@ -3,6 +3,9 @@
   padding: 20px;
 }
 
+.select2-search__field {
+  width: 100% !important;
+}
 .select2, .select2-container, .select2-container--default {
   width: 100% !important;
 }

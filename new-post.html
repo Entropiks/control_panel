@@ -8,9 +8,9 @@
     <title>Control Panel</title>
 
     <!-- Stylesheets -->
+    <link href="css/new-post.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-    <link href="css/new-post.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -144,7 +144,6 @@
                     <input type="text" class="form-control" id="title" placeholder="Title">
                   </div>
 
-                  <!-- not fucking responsive fix this shit -->
                   <div class="form-group">
                     <label class="sr-only">Tags</label>
                     <select data-placeholder="Select tags" multiple name="tags" class="chosen-select form-control">
@@ -157,7 +156,6 @@
                       <option>Ranting</option>
                     </select>
                   </div>
-                  <!-- ^^^ THIS BLOCK IS RUNING EVERYTHIIIING ^^^ -->
 
                   <div class="form-group">
                     <label class="sr-only">Post</label>
@@ -198,14 +196,13 @@
     <script type="text/javascript">
       $('select').select2();
     </script>
-     <script>
+    <script>
       tinymce.init({ selector:'textarea',
       height : 175,
       plugins: [
-        'advlist autolink lists link image charmap print preview hr anchor pagebreak',
-        'searchreplace wordcount visualblocks visualchars code fullscreen',
-        'insertdatetime media nonbreaking save table contextmenu directionality',
-        'emoticons template paste textcolor colorpicker textpattern imagetools codesample toc'
+        "advlist autolink lists link image charmap print preview anchor",
+        "searchreplace visualblocks code fullscreen",
+        "insertdatetime media table contextmenu paste"
           ],
           toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
       });
