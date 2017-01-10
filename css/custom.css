@@ -1,5 +1,6 @@
 html, body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
+  font-style: normal;
   background-color: #f3f3f4;
   color: #676a6c;
   height: 100%; /* stretching content to 100% tag a1 */
@@ -76,6 +77,7 @@ html, body {
 }
 #side-menu .collapseable a:hover {
   color: white;
+  background-color: #293846;
 }
 #side-menu .collapseable {
   border-left: 4px solid #2EC4B6;;
@@ -105,6 +107,7 @@ html, body {
 .valign-top { /* pushing all content to top */
   vertical-align: top;
 }
+
 
 #nav-header {
   background-color: white;
@@ -199,16 +202,68 @@ html, body {
 
 #content header {
   border: 1px #f3f3f4 solid;
-  padding: 10px 0px;
+  padding: 10px 20px;
 }
 
 .page-title {
   font-size: 16px;
   font-weight: bold;
-  padding: 0px 0px 0px 20px;
   margin: 0px;
 }
 
 .content-inner {
   padding: 20px;
+}
+
+.search-field {
+  height: 34px;
+  border: 1px #e7eaec solid;
+}
+
+.search-row {
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #2EC4B6;
+  border: 1px solid #2EC4B6;
+}
+
+.btn-primary:hover {
+  background-color: #54CEC3;
+  border: 1px solid #54CEC3;
+}
+
+.btn-primary:focus {
+  background-color: #54CEC3 !important;
+  border: 1px solid #54CEC3 !important;
+}
+
+.label-success {
+  background-color: #2EC4B6;
+}
+
+.label-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.label-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.label-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.pagination a {
+  color: #2EC4B6 !important;
 }
